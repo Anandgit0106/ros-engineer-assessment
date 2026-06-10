@@ -1,0 +1,10 @@
+# Goal
+bool go
+---
+# Result
+bool success
+float32 travel_time
+string message
+---
+# Feedback
+float32 distance_remaining

@@ -1,0 +1,7 @@
+# Request
+bool go
+---
+# Response
+bool success
+float32 travel_time
+string message
