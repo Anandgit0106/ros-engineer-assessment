@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<library path="nav2_simple_controller">
+
+  <class
+      type="nav2_simple_controller::SimpleController"
+      base_class_type="nav2_core::Controller">
+
+    <description>
+      Simple proportional Nav2 controller
+    </description>
+
+  </class>
+
+</library>
