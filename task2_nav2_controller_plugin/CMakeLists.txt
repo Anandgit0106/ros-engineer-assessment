@@ -35,7 +35,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_package()
+
 
 add_library(
   nav2_simple_controller
@@ -87,3 +87,5 @@ install(
   FILES plugin.xml
   DESTINATION share/${PROJECT_NAME}
 )
+
+ament_package()
