@@ -88,4 +88,9 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  DIRECTORY Config/
+  DESTINATION share/${PROJECT_NAME}/Config
+)
+
 ament_package()
